@@ -1,0 +1,1390 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib",
+      "src/libraries"
+    ]
+  },
+  "files": {
+    "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol": {
+      "lastModificationDate": 1699628006832,
+      "contentHash": "3f7a9d2b13eebc20350a1cc42ed09b16",
+      "sourceName": "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.0",
+      "artifacts": {
+        "Babylonian": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "Babylonian.sol/Babylonian.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/lib/contracts/libraries/BitMath.sol": {
+      "lastModificationDate": 1699628006832,
+      "contentHash": "9268c1120c875c017e31caad9aa38921",
+      "sourceName": "node_modules/@uniswap/lib/contracts/libraries/BitMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "BitMath": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "BitMath.sol/BitMath.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/lib/contracts/libraries/FixedPoint.sol": {
+      "lastModificationDate": 1699628006832,
+      "contentHash": "9c78b75695500ec38a85fea7d923fbf0",
+      "sourceName": "node_modules/@uniswap/lib/contracts/libraries/FixedPoint.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/BitMath.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol"
+      ],
+      "versionRequirement": ">=0.4.0",
+      "artifacts": {
+        "FixedPoint": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "FixedPoint.sol/FixedPoint.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol": {
+      "lastModificationDate": 1699628006832,
+      "contentHash": "23bbd047cedfd8027fb139fcab949cc0",
+      "sourceName": "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.0",
+      "artifacts": {
+        "FullMath": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "FullMath.sol/FullMath.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1699628006832,
+      "contentHash": "7fad4038612c5f040ebd746a3e58e0db",
+      "sourceName": "node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.0",
+      "artifacts": {
+        "TransferHelper": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "TransferHelper.sol/TransferHelper.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1699627102871,
+      "contentHash": "30a4aed15b3fa3ce5588118b7cecfa7f",
+      "sourceName": "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IUniswapV2Callee": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV2Callee.sol/IUniswapV2Callee.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1699627102871,
+      "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
+      "sourceName": "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IUniswapV2Factory": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV2Factory.sol/IUniswapV2Factory.json"
+        }
+      }
+    },
+    "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1699627102871,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IUniswapV2Pair": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV2Pair.sol/IUniswapV2Pair.json"
+        }
+      }
+    },
+    "src/UniswapV2Migrator.sol": {
+      "lastModificationDate": 1699709053357,
+      "contentHash": "2771c36e1b0dbff52fd0d33124f259d7",
+      "sourceName": "src/UniswapV2Migrator.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "src/interfaces/IERC20.sol",
+        "src/interfaces/IUniswapV2Migrator.sol",
+        "src/interfaces/IUniswapV2Router01.sol",
+        "src/interfaces/V1/IUniswapV1Exchange.sol",
+        "src/interfaces/V1/IUniswapV1Factory.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "UniswapV2Migrator": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapV2Migrator.sol/UniswapV2Migrator.json"
+        }
+      }
+    },
+    "src/UniswapV2Router01.sol": {
+      "lastModificationDate": 1699709053357,
+      "contentHash": "c39e8c34a9007c632081c9bcf44323d1",
+      "sourceName": "src/UniswapV2Router01.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/IERC20.sol",
+        "src/interfaces/IUniswapV2Router01.sol",
+        "src/interfaces/IWETH.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "UniswapV2Router01": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapV2Router01.sol/UniswapV2Router01.json"
+        }
+      }
+    },
+    "src/UniswapV2Router02.sol": {
+      "lastModificationDate": 1699709053357,
+      "contentHash": "12a8c57909541a65738ecced73a40885",
+      "sourceName": "src/UniswapV2Router02.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/IERC20.sol",
+        "src/interfaces/IUniswapV2Router01.sol",
+        "src/interfaces/IUniswapV2Router02.sol",
+        "src/interfaces/IWETH.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "UniswapV2Router02": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapV2Router02.sol/UniswapV2Router02.json"
+        }
+      }
+    },
+    "src/examples/ExampleComputeLiquidityValue.sol": {
+      "lastModificationDate": 1699709053357,
+      "contentHash": "8630765210922a33990d47c45a55bbe1",
+      "sourceName": "src/examples/ExampleComputeLiquidityValue.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol",
+        "src/libraries/UniswapV2LiquidityMathLibrary.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "ExampleComputeLiquidityValue": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "ExampleComputeLiquidityValue.sol/ExampleComputeLiquidityValue.json"
+        }
+      }
+    },
+    "src/examples/ExampleFlashSwap.sol": {
+      "lastModificationDate": 1699709053357,
+      "contentHash": "614bf65e008878f8b5175ed977e6eb68",
+      "sourceName": "src/examples/ExampleFlashSwap.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Callee.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/IERC20.sol",
+        "src/interfaces/IUniswapV2Router01.sol",
+        "src/interfaces/IWETH.sol",
+        "src/interfaces/V1/IUniswapV1Exchange.sol",
+        "src/interfaces/V1/IUniswapV1Factory.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "ExampleFlashSwap": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "ExampleFlashSwap.sol/ExampleFlashSwap.json"
+        }
+      }
+    },
+    "src/examples/ExampleOracleSimple.sol": {
+      "lastModificationDate": 1699709053357,
+      "contentHash": "53b250317c7e59cac44708abd7405ce0",
+      "sourceName": "src/examples/ExampleOracleSimple.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/BitMath.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FixedPoint.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol",
+        "src/libraries/UniswapV2OracleLibrary.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "ExampleOracleSimple": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "ExampleOracleSimple.sol/ExampleOracleSimple.json"
+        }
+      }
+    },
+    "src/examples/ExampleSlidingWindowOracle.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "26398fbcf959fac32d155b8456eeceb4",
+      "sourceName": "src/examples/ExampleSlidingWindowOracle.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/BitMath.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FixedPoint.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol",
+        "src/libraries/UniswapV2OracleLibrary.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "ExampleSlidingWindowOracle": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "ExampleSlidingWindowOracle.sol/ExampleSlidingWindowOracle.json"
+        }
+      }
+    },
+    "src/examples/ExampleSwapToPrice.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "978e6a841d1f58c0d6e40d8e45f333c6",
+      "sourceName": "src/examples/ExampleSwapToPrice.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/TransferHelper.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/interfaces/IERC20.sol",
+        "src/interfaces/IUniswapV2Router01.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol",
+        "src/libraries/UniswapV2LiquidityMathLibrary.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "ExampleSwapToPrice": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "ExampleSwapToPrice.sol/ExampleSwapToPrice.json"
+        }
+      }
+    },
+    "src/interfaces/IERC20.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
+      "sourceName": "src/interfaces/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IERC20": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
+    "src/interfaces/IUniswapV2Migrator.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "f626f6b55e8b5ffbda4f64e9409e5614",
+      "sourceName": "src/interfaces/IUniswapV2Migrator.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IUniswapV2Migrator": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV2Migrator.sol/IUniswapV2Migrator.json"
+        }
+      }
+    },
+    "src/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "src/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.2",
+      "artifacts": {
+        "IUniswapV2Router01": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV2Router01.sol/IUniswapV2Router01.json"
+        }
+      }
+    },
+    "src/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "src/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/interfaces/IUniswapV2Router01.sol"
+      ],
+      "versionRequirement": ">=0.6.2",
+      "artifacts": {
+        "IUniswapV2Router02": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV2Router02.sol/IUniswapV2Router02.json"
+        }
+      }
+    },
+    "src/interfaces/IWETH.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "270f2c1a1f22475259d5a2f6a524f72e",
+      "sourceName": "src/interfaces/IWETH.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IWETH": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IWETH.sol/IWETH.json"
+        }
+      }
+    },
+    "src/interfaces/V1/IUniswapV1Exchange.sol": {
+      "lastModificationDate": 1699709053358,
+      "contentHash": "5ec7fe77a73b5ace5fc1fbae6b87f34e",
+      "sourceName": "src/interfaces/V1/IUniswapV1Exchange.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IUniswapV1Exchange": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV1Exchange.sol/IUniswapV1Exchange.json"
+        }
+      }
+    },
+    "src/interfaces/V1/IUniswapV1Factory.sol": {
+      "lastModificationDate": 1699709053359,
+      "contentHash": "abe9343b20a93919250e0dba78bfd9c1",
+      "sourceName": "src/interfaces/V1/IUniswapV1Factory.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "IUniswapV1Factory": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "IUniswapV1Factory.sol/IUniswapV1Factory.json"
+        }
+      }
+    },
+    "src/libraries/SafeMath.sol": {
+      "lastModificationDate": 1699709053359,
+      "contentHash": "9f77127a0e2c55c2058453327e84bde3",
+      "sourceName": "src/libraries/SafeMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "SafeMath": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "SafeMath.sol/SafeMath.json"
+        }
+      }
+    },
+    "src/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1700228069664,
+      "contentHash": "1271093c0610445aabd3c86e0db8db39",
+      "sourceName": "src/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/libraries/SafeMath.sol"
+      ],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "UniswapV2Library": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapV2Library.sol/UniswapV2Library.json"
+        }
+      }
+    },
+    "src/libraries/UniswapV2LiquidityMathLibrary.sol": {
+      "lastModificationDate": 1699709053359,
+      "contentHash": "ff4345b5db079741e28bc593d0356893",
+      "sourceName": "src/libraries/UniswapV2LiquidityMathLibrary.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "src/libraries/SafeMath.sol",
+        "src/libraries/UniswapV2Library.sol"
+      ],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "UniswapV2LiquidityMathLibrary": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapV2LiquidityMathLibrary.sol/UniswapV2LiquidityMathLibrary.json"
+        }
+      }
+    },
+    "src/libraries/UniswapV2OracleLibrary.sol": {
+      "lastModificationDate": 1699709053359,
+      "contentHash": "6375842b01002cf7b8f7899b01c5e8c8",
+      "sourceName": "src/libraries/UniswapV2OracleLibrary.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "node_modules/@uniswap/lib/contracts/libraries/Babylonian.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/BitMath.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FixedPoint.sol",
+        "node_modules/@uniswap/lib/contracts/libraries/FullMath.sol",
+        "node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol"
+      ],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "UniswapV2OracleLibrary": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "UniswapV2OracleLibrary.sol/UniswapV2OracleLibrary.json"
+        }
+      }
+    },
+    "src/test/DeflatingERC20.sol": {
+      "lastModificationDate": 1699709053359,
+      "contentHash": "7476ba791f9afb6f870f10560972e0a0",
+      "sourceName": "src/test/DeflatingERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/libraries/SafeMath.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "DeflatingERC20": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "DeflatingERC20.sol/DeflatingERC20.json"
+        }
+      }
+    },
+    "src/test/ERC20.sol": {
+      "lastModificationDate": 1699709053359,
+      "contentHash": "3c84c6f456884e55b360a8450d0f0446",
+      "sourceName": "src/test/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/libraries/SafeMath.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "ERC20": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "src/test/RouterEventEmitter.sol": {
+      "lastModificationDate": 1699709053360,
+      "contentHash": "bb6d14d6c3ceaed70c1dae947354710a",
+      "sourceName": "src/test/RouterEventEmitter.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/interfaces/IUniswapV2Router01.sol"
+      ],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "RouterEventEmitter": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "RouterEventEmitter.sol/RouterEventEmitter.json"
+        }
+      }
+    },
+    "src/test/WETH9.sol": {
+      "lastModificationDate": 1699709053360,
+      "contentHash": "c60afbcd54ec9da3b3908e2db56c0d12",
+      "sourceName": "src/test/WETH9.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.6.6",
+      "artifacts": {
+        "WETH9": {
+          "0.6.6+commit.6c089d02.Darwin.appleclang": "WETH9.sol/WETH9.json"
+        }
+      }
+    }
+  }
+}
